@@ -26,7 +26,7 @@ ui <- fluidPage(
         column(
             width = 2,
             numericInput("size", "Board size:", value = 5, min = 1, max = 10),
-            checkboxInput("free_space", "FREE center space (odd sizes only)", value = FALSE),
+            checkboxInput("free_space", "Free space (odd sizes only)", value = FALSE),
             actionButton("generate", "Generate new board", class = "btn-primary"),
             br(), br(),
             downloadButton("download_png", "Download as PNG")
