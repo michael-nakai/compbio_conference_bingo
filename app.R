@@ -54,6 +54,18 @@ server <- function(input, output, session) {
         all_prompts <- prompts()
 
         use_free <- isTRUE(input$free_space) && (w %% 2 == 1) && (h %% 2 == 1)
+
+        # The FREE space should always display the designated "session goes over
+        # time" prompt (if present in prompts.txt) rather than the word "FREE".
+        free_text <- "FREE"
+        if (use_free) {
+            match_idx <- which(tolower(all_prompts) == "session goes over time")
+            if (length(match_idx) > 0) {
+                free_text <- all_prompts[match_idx[1]]
+                all_prompts <- all_prompts[-match_idx[1]]
+            }
+        }
+
         n_needed <- if (use_free) n_cells - 1 else n_cells
 
         if (length(all_prompts) == 0) {
@@ -77,7 +89,7 @@ server <- function(input, output, session) {
         if (use_free) {
             center_idx <- ceiling(n_cells / 2)
             cells[-center_idx] <- chosen
-            cells[center_idx] <- "FREE"
+            cells[center_idx] <- free_text
         } else {
             cells <- chosen
         }
@@ -107,18 +119,24 @@ server <- function(input, output, session) {
 
         tagList(
             tags$style(HTML(sprintf("
+        .bingo-scroll {
+          overflow: auto;
+          max-width: 100%%;
+        }
         .bingo-grid {
           display: grid;
-          grid-template-columns: repeat(%d, 1fr);
-          grid-template-rows: repeat(%d, 1fr);
+          grid-template-columns: repeat(%d, 190px);
+          grid-template-rows: repeat(%d, 190px);
           gap: 6px;
-          max-width: 1100px;
+          width: max-content;
         }
         .bingo-cell {
           border: 2px solid #333;
           border-radius: 6px;
           padding: 14px;
-          min-height: 150px;
+          box-sizing: border-box;
+          width: 190px;
+          height: 190px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -133,7 +151,7 @@ server <- function(input, output, session) {
           font-size: 24px;
         }
       ", w, h))),
-      div(class = "bingo-grid", cell_tags)
+      div(class = "bingo-scroll", div(class = "bingo-grid", cell_tags))
         )
     })
 
@@ -151,6 +169,10 @@ server <- function(input, output, session) {
             cells <- bd$cells
             center_idx <- bd$center_idx
 
+            # Given a text string and a starting fontsize, wrap the text and shrink
+            # the fontsize (down to a floor) until it fits within the current
+            # viewport. Must be called AFTER pushViewport() for the target cell,
+            # since sizes are measured relative to that viewport (npc units).
             fit_cell_text <- function(text, base_fontsize, min_fontsize = 7) {
                 fontsize <- base_fontsize
                 wrapped <- text
@@ -193,7 +215,9 @@ server <- function(input, output, session) {
                 col <- i - (row - 1) * w
                 is_free <- !is.na(center_idx) && i == center_idx
 
-                # clip = "on" ensures text can never bleed into a neighboring cell
+                # clip = "on" ensures text can never bleed into a neighboring cell,
+                # even in the unlikely event the auto-fit sizing above can't shrink
+                # enough to fit a very long sentence.
                 grid::pushViewport(grid::viewport(
                     layout.pos.row = row, layout.pos.col = col, clip = "on"
                 ))
