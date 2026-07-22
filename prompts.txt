@@ -1,71 +1,90 @@
-- session goes over time
-- talk goes over time and is not stopped
-- ‘in the interest of time’ - skip questions
-- you win the door prize
-- mid-session/break coffee run
-- catch someone napping first session day 2
-- figures are too small in a flash talk
-- someone reads a script from their phone during a flash talk
-- someone gets cut off for time
-- lightning talk read with same speed as eminem’s ‘rap god’
-- clinician talk makes very little sense
-- protein name with more than 8 letters and 2 numbers
-- cursed backronym
-- bacterial species names without italics grrrr 
-- “as you can clearly see in this figure” nope we cannot 
-- speaker saying “eehhmm” excessively (every second word)
-- a clinician receiving a phone call and walking out with hectic steps
-- a poster with more than 5 affiliations 
-- an acknowledgement group picture without the speaker 
-- a talk without clear motivation just jumping right into jargon. No, we do not know why we should care. 
+- Session goes over time
+- Talk goes over time and is not stopped
+- Questions skipped ‘in the interest of time’
+- Mid-session break/coffee run
+- You catch someone napping
+- Figures are so small you question if you need glasses
+- Someone reads a script from their phone during a flash talk
+- Someone gets cut off for time
+- Lightning talk read with same energy as Eminem’s ‘Rap God’
+- Clinician talk makes very little sense
+- Protein name with more than 8 letters and 2 numbers
+- Cursed backronym
+- Plot is shown but never explained
+- Speaker saying “eehhmm” excessively
+- A clinician receiving a phone call and walking out with hectic steps
+- A poster with more than 5 affiliations
+- An acknowledgement group picture without the speaker
+- A talk without clear motivation just jumping right into jargon
+- You know gossip about the speaker onstage
 - QR code doesn’t work
-- a talk includes a slide on the awards they’ve gotten or other sort of pointless accolades
-- a heated conversation starts in the Oshlack lab slack general chat after a sketchy presentation
-- “as im sure you’re all aware” - you are not aware
-- skipping over interesting bioinformatics
-- skipping over a slide as they cannot manage time. 
-- talk/poster acknowledging Australian Defence Force or US Department of Defence
-- something about solid tumor CAR t cell therapy
-- t-rex cells hihi gets me everytime 🦖 (Tregs)
-- speaker says bioinformatician as if they are not sure they are real
+- A talk includes a slide on the awards they’ve gotten or other sort of pointless accolades
+- Skipping over interesting bioinformatics
+- Skipping over a slide in interest of time
+- Talk/poster acknowledges Australian Defence Force or US Department of Defence
+- Speaker says “bioinformatician” as if they are not sure they are real
 - “I asked ChatGPT/Claude/etc…”
-- cursed AI art
-- someone in the lab catches something and gets a cough/sniffle during day 2
-- poster is just a manuscript in A0
-- slide contains a meme
-- a group of 5+ people immediately leave to the “bathroom” when a talk starts
-- students arrive to day 2 before postdocs in lab
-- talk/poster title is 3+ lines long
-- question after talk is actually a statement
-- same person asks 3+ questions in same day
-- double parked at drinks reception
-- someone is sloshed at the post-conference drinks
-- a language model is forced into a project where it probably shouldn’t be
-- it is impossible to get down the aisles during the poster session
-- shitty meme
-- fantastic meme
-- you end up sitting on a table with people you don’t know
-- you realise too late someone on your table is super important
-- lightning talk uses convoluted metaphor
-- Caitlin fucking dies (please don’t actually)
-- someone on table is on their laptop
-- TECHNICAL DIFFICULTIES
-- someone says “Hi” to you and addresses you by name. You’ve forgotten theirs
-- talking to someone but stealthily reading their name badge
-- someone sneaked snacks into the post lunch/afternoon tea session (we’re sneaking it in now?????)
-- one of the debaters severely misjudges the tone of the debate
-- you consumed twice as much coffee as usual
-- you consumed twice as many snacks as usual
-- consumer story is highlight of session
-- slide just has a quote
+- Cursed AI art
+- Someone in the lab catches something and gets a cough/sniffle during day 2
+- Poster is just a manuscript in A0
+- A1 poster
+- Crumpled poster
+- Terrible meme
+- Fantastic meme
+- A group of 5+ people immediately leave to the “bathroom” when a talk starts
+- Talk/poster title is 3+ lines long
+- Same person asks 3+ questions in same day
+- Double parked at drinks reception
+- A language model is forced into a project where it probably shouldn’t be
+- It is impossible to get down the aisles during the poster session
+- You realise too late someone on your table is super important
+- Lightning talk uses convoluted metaphor
+- Someone on table is doing work on their laptop
+- Someone on table is editing their talk
+- ~~~ TECHNICAL DIFFICULTIES ~~~
+- Someone says “Hi” to you and addresses you by name. You’ve forgotten theirs
+- You say “Hi” to someone and address them by name. They've forgotten yours
+- Talking to someone but stealthily reading their name badge
+- Someone sneaked snacks into the post lunch/afternoon tea session
+- One of the debaters severely misjudges the tone of the debate
+- You consumed twice as much coffee as usual
+- You consumed twice as many snacks as usual
+- Consumer story is highlight of session
+- Slide just has a quote
+- Slide has photos of their kids/pets
 - WAY too many powerpoint slide transitions
-- talk references someone you know
-- industry booth has plushie (pls)
-- students conduct elaborate heist to acquire a plushie or pair of socks
-- question: “This is more of a statement…”
-- poster session is too warm but the main talk room is FREEZING
-- you surrender your email to spam forever for a silly freebie
-- you come up with a fake name/email/phone number for a silly freebie
-- super fancy slide theme
-- literally no slide theme (raw dogging the science)
-- venue coffee is weaker than the grid
+- Talk references someone you know
+- Industry booth has plushie
+- Question = “This is more of a statement…”
+- Main room is FREEZING
+- You surrender your email to spam forever for a silly freebie
+- You come up with a fake name/email/phone number for a silly freebie
+- Super fancy slide theme
+- No slide theme (raw dogging the science)
+- You ask a question just to get a free coffee voucher
+- Plot with too many colours
+- Viridis colour scheme
+- Someone presents something you had no idea PeterMac even did
+- Someone SPRINTS for the mic during questions
+- Dim lighting makes you sleepy
+- Canva slides
+- Slide changer button confuses presenter
+- Clinical trial name acronym is cursed
+- Slide is all plots
+- Slide is all text
+- Only one side of the debate is serious about the topic
+- Shark Tank idea is reaaaaally out there…
+- All Shark Tank ideas are related to translational science/clinical care
+- Only one Shark Tank idea is bioinformatics-related
+- AI made the presentation
+- Needing to choose between snacks or presenting your poster
+- Serif font in plots
+- Tries to make a project cancer related when it’s not
+- More than 7 different CD markers, T cell types, or cytokines in one talk
+- T cell type you’ve never heard of before
+- Cancer type you’ve never heard of before
+- Clinicians excited about their many kaplan meier plots
+- Plot with extremely tiny writing
+- PeterMac purple poster palette
+- Poster with tiny writing
+- The venue's chairs give you excruciating back pain
